@@ -1,0 +1,43 @@
+{
+  "ruby.lint": {
+    "reek": true,
+    "rubocop": true,
+    "ruby": true, //Runs ruby -wc
+    "fasterer": true,
+    "debride": true,
+    "ruby-lint": false
+  },
+  "editor.rulers": [120],
+  "files.trimTrailingWhitespace": true,
+  "jsAutolint.defaultLinters": ["eslint", "jscs", "jshint", "standard", "tslint"],
+  "editor.renderWhitespace": "boundary",
+  "editor.tabSize": 2,
+  "files.insertFinalNewline": true,
+  "editor.fontSize": 14,
+  "workbench.iconTheme": "vs-seti",
+  "files.exclude": {
+    "**/*.pyc": true,
+    "**/__pycache__": true,
+    ".cache": true,
+    ".eggs": true,
+    "dist": true,
+    "*.egg-info": true,
+    "build": true
+  },
+  "explorer.confirmDragAndDrop": false,
+  "workbench.startupEditor": "newUntitledFile",
+  "editor.largeFileOptimizations": false,
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "ruby.intellisense": "rubyLocate",
+  "git.ignoreMissingGitWarning": true,
+  "explorer.confirmDelete": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "javascript.autoClosingTags": false,
+  "javascript.format.insertSpaceAfterCommaDelimiter": false,
+  "gitlens.advanced.messages": {
+    "suppressGitDisabledWarning": true
+  },
+  "workbench.colorTheme": "Default Dark+",
+  "editor.accessibilitySupport": "on"
+}
